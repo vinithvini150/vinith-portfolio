@@ -119,49 +119,25 @@ function Projects() {
 
         <div className="project-buttons">
 
-            {project.status === "completed" ? (
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub size={18} />
+    <span>GitHub</span>
+  </a>
 
-                <>
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <FaGithub size={18} />
-                        <span>GitHub</span>
-                    </a>
+  <a
+    href={project.demo}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <ExternalLink size={18} />
+    <span>Live Demo</span>
+  </a>
 
-                    <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <ExternalLink size={18} />
-                        <span>Live Demo</span>
-                    </a>
-                </>
-
-            ) : (
-
-                <>
-                    <button
-                        className="disabled-btn"
-                        disabled
-                    >
-                        GitHub
-                    </button>
-
-                    <button
-                        className="disabled-btn"
-                        disabled
-                    >
-                        Coming Soon
-                    </button>
-                </>
-
-            )}
-
-        </div>
+</div>
 
     </div>
 
