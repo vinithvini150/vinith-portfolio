@@ -51,9 +51,9 @@ const projects = [
       "CSS",
       "Vite",
     ],
-    github: "",
-    demo: "",
-    status: "coming",
+    github: "https://github.com/vinithvini150/vinith-portfolio",
+    demo: "https://vinith-portfolio-ashy.vercel.app/",
+    status: "Completed",
   },
 ];
 
