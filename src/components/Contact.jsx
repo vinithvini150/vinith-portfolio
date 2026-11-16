@@ -128,12 +128,12 @@ function Contact() {
 
           <div className="contact-item">
             <Mail size={22} />
-            <span>vinithvini2108@gmail.com</span>
+            <span>vkwebdevsolutions@gmail.com</span>
           </div>
 
           <div className="contact-item">
             <Phone size={22} />
-            <span>+91 9626226862</span>
+            <span>+91 8778608416</span>
           </div>
 
           <div className="contact-item">
