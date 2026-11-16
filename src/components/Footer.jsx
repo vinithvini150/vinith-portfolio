@@ -39,11 +39,13 @@ function Footer() {
 
             <h3>Contact</h3>
 
-            <p>📧 vinithvini2108@gmail.com</p>
+            <p>📧 vkwebdevsolutions@gmail.com</p>
 
-            <p>📞 +91 9626226862</p>
+            <p>📞 +91 8778608416</p>
 
             <p>📍 Hosur, Tamil Nadu</p>
+
+            <p> Global Scale Services</p>
 
             <div className="footer-social">
 
